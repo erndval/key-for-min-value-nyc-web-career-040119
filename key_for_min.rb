@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
     if count < lowest
       lowest = count
       lowest_key = item
-end
+      end
+    end
 if lowest_key == ""
   return NIL
 else
